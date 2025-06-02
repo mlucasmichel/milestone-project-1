@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  /*background-image: url('../images/fogged_mirror.jpg');
+    background-size: cover;*/
+  background-color: #a4a4a4;
+}
+
+.shadow {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.outer-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 10px auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.inner-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .outer-wrapper {
+    flex-direction: column;
+  }
+  .inner-wrapper {
+    flex-direction: column;
+  }
+}
+.profile-image {
+  max-width: 400px;
+  width: auto;
+  max-height: auto;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: calc(2rem + 1vw);
+  margin: 5px 0;
+}
+
+p {
+  color: #ffffff;
+  font-size: calc(1.25em + 1vw);
+  margin: 5px 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 10px 50px;
+  background-color: rgba(0, 0, 0, 1);
+  padding: 5px 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 400px;
+  margin: 10px 50px;
+  background-color: rgba(0, 0, 0, 1);
+  padding: 2px 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.contact-container p {
+  color: #ffffff;
+  font-size: calc(0.8em + 1vw);
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 1);
+  width: 70%;
+  margin: 10px auto 15px auto;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+nav {
+  float: right;
+}
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-links li {
+  display: inline;
+  margin-right: 20px;
+}
+.nav-links li a {
+  color: #ffff;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+}
