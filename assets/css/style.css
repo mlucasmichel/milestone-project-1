@@ -63,6 +63,7 @@ h1 {
 
 p {
   color: #ffffff;
+  font-weight: bold;
   font-size: calc(1.25em + 1vw);
   margin: 5px 0;
 }
